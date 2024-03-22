@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7.8,<3.12
+    - python >=3.7.8,<4.0.0
     - poetry-core >=1.0.0
     - pip
   run:
-    - python >=3.7.8,<3.12
+    - python >=3.7.8,<4.0.0
     - rich >=12.2.0
     - python-yakh >=0.3.2,<0.4.0
 

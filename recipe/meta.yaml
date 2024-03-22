@@ -1,5 +1,5 @@
 {% set name = "questo" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/questo-{{ version }}.tar.gz
-  sha256: 3a4ce0c36ef7dc454706f1ec7be23922fefbf5904d83610222dc0c9d068f0917
+  sha256: 7eb4861f814ad775e45d1fdae020a06093d4322b427cddac655fa274d82d3114
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7.8,<3.12
+    - python >=3.7.8,<4.0.0
     - poetry-core >=1.0.0
     - pip
   run:
-    - python >=3.7.8,<3.12
+    - python >=3.7.8,<4.0.0
     - rich >=12.2.0
     - python-yakh >=0.3.2,<0.4.0
 

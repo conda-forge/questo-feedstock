@@ -1,5 +1,5 @@
 {% set name = "questo" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/questo-{{ version }}.tar.gz
-  sha256: a22dced0c4912919c0c0f7912ecd604ac1f2d3492e45e9d172baf5fa10ded75d
+  sha256: efe4fb0ca68606555a5357d6424d4116081e9af7f10d8a6208039aa9b130d30f
 
 build:
   noarch: python
